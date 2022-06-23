@@ -15,4 +15,4 @@ app.get("/api/flavours/:id", getSingleFlavour);
 app.post("/api/flavours", postFlavours);
 app.put("/api/flavours/:id", updateFlavours);
 
-app.listen("8080", () => console.log("Server Listening on port 8080"));
+app.listen("8080", () => console.log("Server listening on port 8080"));
